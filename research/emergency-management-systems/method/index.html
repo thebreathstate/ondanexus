@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Method — Stage-Based Systems Performance Lens (GSPS) | Onda Nexus</title>
+  <meta name="description" content="Methodology for the Emergency Management Systems Performance project: a stage-based lens used to compare post-award execution behavior across storms." />
+  <link rel="canonical" href="https://ondanexus.com/research/emergency-management-systems/method/" />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111827;
+      --muted:#4b5563;
+      --border:#e5e7eb;
+      --max: 860px;
+      --radius: 14px;
+    }
+    *{box-sizing:border-box;}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;}
+    a{color:inherit;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    header{border-bottom:1px solid var(--border);}
+    .header-inner{max-width:var(--max);margin:0 auto;padding:22px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;}
+    .brand{font-weight:700;letter-spacing:.2px;}
+    .nav a{margin-left:14px;color:var(--muted);font-size:14px;}
+    main{max-width:var(--max);margin:0 auto;padding:28px 16px 48px;}
+    h1{font-size:32px;line-height:1.15;margin:0 0 10px;}
+    h2{font-size:22px;margin:30px 0 10px;}
+    h3{font-size:18px;margin:22px 0 8px;}
+    p{line-height:1.65;margin:10px 0;}
+    .lede{font-size:18px;color:var(--muted);margin-top:8px;}
+    .meta{font-size:13px;color:var(--muted);margin:10px 0 18px;}
+    .kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px;}
+    .card{border:1px solid var(--border);border-radius:var(--radius);padding:16px;margin:14px 0;background:#fff;}
+    .hr{height:1px;background:var(--border);margin:22px 0;}
+    ul{padding-left:20px;line-height:1.65;}
+    footer{border-top:1px solid var(--border);}
+    .footer-inner{max-width:var(--max);margin:0 auto;padding:18px 16px;color:var(--muted);font-size:13px;}
+    .small{font-size:13px;color:var(--muted);}
+    table{width:100%;border-collapse:collapse;margin:10px 0 0;}
+    th,td{border:1px solid var(--border);padding:10px;vertical-align:top;text-align:left;}
+    th{background:#fafafa;font-size:13px;color:var(--muted);}
+    td{font-size:14px;line-height:1.55;}
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;border:1px solid var(--border);font-size:12px;color:var(--muted);margin:0 8px 8px 0;}
+    code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace; font-size: 13px;}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand"><a href="/">OndaNexus</a></div>
+      <nav class="nav">
+        <a href="/research/emergency-management-systems/">Project</a>
+        <a href="/research/emergency-management-systems/posts/ian/">Posts</a>
+        <a href="/about/">About</a>
+        <a href="/connect/">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <p class="kicker">Method</p>
+    <h1>Stage-Based Systems Performance Lens (GSPS)</h1>
+    <p class="lede">A consistent stage model used to compare execution behavior across storms without changing the lens.</p>
+
+    <p class="meta">
+      By <strong>Bob Pudlock, Onda Nexus</strong> • Published: 2026-02-08
+    </p>
+
+    <div class="card">
+      <span class="pill">Comparability</span>
+      <span class="pill">Execution visibility</span>
+      <span class="pill">Post-award focus</span>
+      <p class="small">
+        GSPS is used here as a practical structure for organizing observation and enabling cross-storm comparison. It is not a policy framework.
+      </p>
+    </div>
+
+    <h2>Why a stage lens</h2>
+    <p>
+      Large-scale disaster recovery involves many actors, timelines, and overlapping programs. When delivery slows or degrades,
+      performance narratives often collapse multiple phases into one. A stage-based lens separates these phases so execution constraints are not misattributed.
+    </p>
+
+    <h2>How GSPS is used in this project</h2>
+    <div class="card">
+      <ul>
+        <li>Each storm is analyzed with the same stages and the same questions.</li>
+        <li>Observation is separated from interpretation.</li>
+        <li>Special attention is placed on post-award execution: mobilization, throughput, quality, cycle time.</li>
+        <li>Where possible, oversight signals are summarized from public reporting and audits.</li>
+      </ul>
+    </div>
+
+    <h2>GSPS stages (v1)</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>What it covers</th>
+            <th>Boundary signal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>1) Event & Immediate Response</strong></td>
+            <td>Impact, life safety operations, emergency sheltering, initial FEMA response</td>
+            <td>Life safety stabilizes</td>
+          </tr>
+          <tr>
+            <td><strong>2) Stabilization & Interim Housing</strong></td>
+            <td>Temporary housing, basic repairs, FEMA IA/PA overlap, debris clearance, insurance progression</td>
+            <td>Long-term recovery formally initiates</td>
+          </tr>
+          <tr>
+            <td><strong>3) Program Design & Capitalization</strong></td>
+            <td>Needs assessments, supplemental appropriations, CDBG-DR allocation, Action Plan creation/approval</td>
+            <td>Funds become available to obligate</td>
+          </tr>
+          <tr>
+            <td><strong>4) Vendor Mobilization & Intake</strong></td>
+            <td>Procurement, onboarding, intake pipelines, DOB checks, environmental review, permitting initiation</td>
+            <td>Execution becomes practically available</td>
+          </tr>
+          <tr>
+            <td><strong>5) Production & Delivery</strong></td>
+            <td>Construction/repair, inspections, payments/draws, QA/QC, completion</td>
+            <td>Stable throughput and quality</td>
+          </tr>
+          <tr>
+            <td><strong>6) Closeout, Oversight & Learning</strong></td>
+            <td>Closeout milestones, audits/reviews, corrective actions, lessons learned</td>
+            <td>Institutional learning codified</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>What the lens makes visible</h2>
+    <div class="card">
+      <ul>
+        <li>Execution constraints in Stage 5 often originate in Stage 3–4 readiness conditions.</li>
+        <li>Vendor performance behaves like a downstream signal of intake discipline, inspection cadence, permitting flow, and payment mechanics.</li>
+        <li>Cross-storm comparison helps distinguish storm-specific issues from recurring system behavior.</li>
+      </ul>
+    </div>
+
+    <h2>Attribution</h2>
+    <p>
+      This work relies on publicly available materials such as program updates, official reporting, and publicly released oversight findings.
+      As the library expands, individual pages may include direct links to source documents where they materially inform a specific observation.
+    </p>
+
+    <div class="hr"></div>
+
+    <p class="small">
+      Return to the project: <a href="/research/emergency-management-systems/">Emergency Management Systems Performance</a>
+      • View posts: <a href="/research/emergency-management-systems/posts/ian/">Case library</a>
+    </p>
+
+    <h2>Contact</h2>
+    <p>Contact Bob Pudlock at bob.pudlock@gmail.com</p>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      © 2026 OndaNexus • Emergency Management Systems Performance Research
+    </div>
+  </footer>
+</body>
+</html>
