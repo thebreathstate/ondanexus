@@ -1,3 +1,3 @@
 ## Start here
-- [About](/about/)
-- [Connect](/connect/)
+- [About](https://ondanexus.com/about/)
+- [Connect](https://ondanexus.com/connect/)
